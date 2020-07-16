@@ -1,4 +1,4 @@
-scores = [100, 90, 80, 70, 60, 50]
+scores = [100, 95, 81, 72, 66, 53]
 #print(scores[0])
 #print(scores[1])
 #print(scores[2])
@@ -14,3 +14,6 @@ sum = 0
 for i in range (0, len(scores)):
     sum += scores[i]
 print("totalsum: %d" % sum)
+
+avg = sum/len(scores)
+print("average: %.1f" %avg)
